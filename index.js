@@ -34,20 +34,20 @@ module.exports = {
             error: 'Noe gikk galt',
             list: '%{name}',
             loading: 'Laster',
-            not_found: 'Ikke Funnet',
+            not_found: 'Ikke funnet',
             show: '%{name} #%{id}',
         },
         input: {
             file: {
                 upload_several:
-                    'Slipp noen filer for å laste opp, eller klikk for å velge en.',
-                upload_single: 'Slipp en fil for å laste opp, eller klikk for å velge den.',
+                    'Dra og slipp noen filer for å laste opp, eller klikk for å velge.',
+                upload_single: 'Dra og slipp en fil som skal lastes opp, eller klikk for å velge.',
             },
             image: {
                 upload_several:
-                    'Slipp noen bilder for å laste opp, eller klikk for å velge en.',
+                    'Dra og slipp noen bilder for å laste opp, eller klikk for å velge.',
                 upload_single:
-                    'Slipp et bilde for å laste opp, eller klikk for å velge det.',
+                    'Dra og slipp et bilde som skal lastes opp, eller klikk for å velge.',
             },
             references: {
                 all_missing: 'Klarte ikke å finne referansedata',
@@ -73,13 +73,13 @@ module.exports = {
             loading: 'Siden laster, et lite øyeblikk bare',
             no: 'Nei',
             not_found:
-                'Enten skrev du inn feil URL, eller du fulgte en ugyldig lenke.',
+                'Du har skrevet feil URL eller fulgt en ugyldig lenke.',
             yes: 'Ja',
         },
         navigation: {
             no_results: 'Ingen resultater funnet',
             no_more_results:
-                'Side %{page} er utenfor avmålt område. Prøv den forrige siden.',
+                'Side %{page} er utenfor avmålt område. Prøv forrige side.',
             page_out_of_boundaries: 'Side %{page} er utenfor avmålt område',
             page_out_from_end: 'Kan ikke gå forbi siste side',
             page_out_from_begin: 'Kan ikke gå før side 1',
@@ -93,7 +93,7 @@ module.exports = {
             username: 'Brukernavn',
             password: 'Passord',
             sign_in: 'Logg inn',
-            sign_in_error: 'Autentisering feilet, vennligst prøv igjen',
+            sign_in_error: 'Pålogging feilet, vennligst prøv igjen',
             logout: 'Logg ut',
         },
         notification: {
@@ -101,7 +101,7 @@ module.exports = {
             created: 'Element opprettet',
             deleted: 'Element slettet |||| %{smart_count} elementer slettet',
             bad_item: 'Ugyldig element',
-            item_doesnt_exist: 'Element finnes ikke',
+            item_doesnt_exist: 'Elementet finnes ikke',
             http_error: 'Server kommunikasjonsfeil',
             data_provider_error:
                 'dataProvider feil. Sjekk konsollen for detaljer.',
@@ -114,10 +114,10 @@ module.exports = {
             maxLength: 'Må ha %{max} eller færre bokstaver',
             minValue: 'Må være minst %{min}',
             maxValue: 'Må være %{max} eller mindre',
-            number: 'Must be a number',
+            number: 'Må være et tall',
             email: 'Må være en gyldig epost',
             oneOf: 'Må være en av: %{options}',
-            regex: 'Må matche et spesifikt format (regexp): %{pattern}',
+            regex: 'Må være på bestemt format (regexp): %{pattern}',
         },
     },
 };
