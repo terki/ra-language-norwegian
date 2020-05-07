@@ -36,6 +36,8 @@ module.exports = {
             loading: 'Laster',
             not_found: 'Ikke funnet',
             show: '%{name} #%{id}',
+            empty: 'Ingen %{name} enda.',
+            invite: 'Vil du legge til en?'
         },
         input: {
             file: {
