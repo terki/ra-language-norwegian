@@ -91,6 +91,7 @@ module.exports = {
             prev: 'Forrige',
         },
         auth: {
+            auth_check_error: 'Vennligst logg inn for å fortsette',
             user_menu: 'Profil',
             username: 'Brukernavn',
             password: 'Passord',
