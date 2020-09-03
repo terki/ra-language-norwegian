@@ -1,4 +1,6 @@
-module.exports = {
+import { TranslationMessages } from 'ra-core';
+
+const norwegianMessages: TranslationMessages = {
     ra: {
         action: {
             add_filter: 'Filtrer',
@@ -22,10 +24,16 @@ module.exports = {
             show: 'Vis',
             sort: 'Sorter',
             undo: 'Angre',
+            unselect: 'Fjern markering',
+            expand: 'Utvid',
+            close: 'Lukk',
+            open_menu: 'Åpne meny',
+            close_menu: 'Lukk meny'
         },
         boolean: {
             true: 'Ja',
             false: 'Nei',
+            null: ''
         },
         page: {
             create: 'Opprett %{name}',
@@ -58,6 +66,10 @@ module.exports = {
                 single_missing:
                     'Tilknyttet referanse ser ikke ut til å være tilgjengelig.',
             },
+            password: {
+                toggle_visible: 'Skjul passord',
+                toggle_hidden: 'Vis password',
+            }
         },
         message: {
             about: 'Om',
@@ -77,6 +89,8 @@ module.exports = {
             not_found:
                 'Du har skrevet feil URL eller fulgt en ugyldig lenke.',
             yes: 'Ja',
+            unsaved_changes:
+                "Noen av endringene ble ikke lagret. Er du sikker på at du vil se bort fra disse?",
         },
         navigation: {
             no_results: 'Ingen resultater funnet',
@@ -89,6 +103,11 @@ module.exports = {
             page_rows_per_page: 'Rader pr side:',
             next: 'Neste',
             prev: 'Forrige',
+        },
+        sort: {
+            sort_by: 'Sortere etter %{field} %{order}',
+            ASC: 'stigende',
+            DESC: 'synkende',
         },
         auth: {
             auth_check_error: 'Vennligst logg inn for å fortsette',
@@ -108,6 +127,8 @@ module.exports = {
             http_error: 'Server kommunikasjonsfeil',
             data_provider_error:
                 'dataProvider feil. Sjekk konsollen for detaljer.',
+            i18n_error:
+                'Kan ikke laste oversettelser for valgt språk',
             canceled: 'Operasjon avbrutt',
             logged_out: 'Din sesjon har utløpt, vennligst koble til på nytt.',
         },
@@ -124,3 +145,5 @@ module.exports = {
         },
     },
 };
+
+export default norwegianMessages;
