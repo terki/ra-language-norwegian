@@ -1,6 +1,6 @@
 {
     "name": "ra-language-norwegian",
-    "version": "1.0.5-terki",
+    "version": "1.0.6-terki",
     "description": "Norwegian messages for react-admin, the frontend framework for building admin applications on top of REST/GraphQL services",
     "repository": {
         "type": "git",
