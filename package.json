@@ -1,6 +1,6 @@
 {
     "name": "ra-language-norwegian",
-    "version": "1.0.4-terki",
+    "version": "1.0.5-terki",
     "description": "Norwegian messages for react-admin, the frontend framework for building admin applications on top of REST/GraphQL services",
     "repository": {
         "type": "git",
@@ -17,13 +17,13 @@
     "types": "esm/index.d.ts",
     "scripts": {
         "build": "yarn run build-cjs && yarn run build-esm",
-        "build-cjs": "rimraf ./lib && tsc",
+        "build-cjs": "rimraf ./lib && tsc --strict",
         "build-esm": "rimraf ./esm && tsc --outDir esm --module es2015",
         "prepare": "yarn run build",
         "watch": "tsc --outDir esm --module es2015 --watch"
     },
     "dependencies": {
-        "ra-core": "^3.8.3"        
+        "ra-core": "^3.12.0"
     },
     "keywords": [
         "react",

@@ -103,6 +103,7 @@ const norwegianMessages: TranslationMessages = {
             page_rows_per_page: 'Rader pr side:',
             next: 'Neste',
             prev: 'Forrige',
+            skip_nav: 'Hopp til innhold'
         },
         sort: {
             sort_by: 'Sortere etter %{field} %{order}',
