@@ -1,6 +1,6 @@
 {
     "name": "ra-language-norwegian",
-    "version": "1.0.3-terki",
+    "version": "1.0.4-terki",
     "description": "Norwegian messages for react-admin, the frontend framework for building admin applications on top of REST/GraphQL services",
     "repository": {
         "type": "git",
@@ -23,8 +23,7 @@
         "watch": "tsc --outDir esm --module es2015 --watch"
     },
     "dependencies": {
-        "ra-core": "^3.8.3",
-        "typescript": "^4.0.2"
+        "ra-core": "^3.8.3"        
     },
     "keywords": [
         "react",
@@ -39,6 +38,7 @@
     },
     "homepage": "https://github.com/marmelab/react-admin#readme",
     "devDependencies": {
-        "rimraf": "^3.0.2"
+        "rimraf": "^3.0.2",
+        "typescript": "^4.0.2"        
     }
 }
